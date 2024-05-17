@@ -1,3 +1,12 @@
+#ifndef PROTOTYPE_H
+#define PROTOTYPE_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+
+
 typedef struct{
 	int size;
 	int cap;
@@ -19,3 +28,5 @@ typedef struct{
  void erase(Vector*, int);
  void clear(Vector*);
  void shrink_to_fit(Vector*);
+ 
+ #endif 
