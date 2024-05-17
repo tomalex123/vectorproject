@@ -1,3 +1,5 @@
+#include "prototype.h"
+
 Vector* initializer(int initCap){
 	Vector* V = (Vector*)malloc(sizeof(Vector));
 		if(V == NULL){
