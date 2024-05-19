@@ -124,6 +124,9 @@ int back(Vector* V){
 		printf("position out of range! \n");
 		return;	
 	}
+	for (int i = pos; i < V->size - 1; ++i) {
+		V->vec[i] = V->vec[i + 1];
+	}
 	--(V->size);
 	V->vec[V->size] = 0;
  
